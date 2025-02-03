@@ -1,5 +1,5 @@
 public class BankAccount {
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         float balance = 2175.37f;
         balance -= 302.50f;
         balance += 50.03f;
