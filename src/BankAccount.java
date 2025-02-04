@@ -8,8 +8,7 @@ public class BankAccount {
         balance *= 2f;
         balance += 1f;
 
-
-        System.out.println("Your current balance is $" + balance);
+        System.out.println("Your current balance is $" + String.format("%.2f", balance)); //formats to decimal points only
 
     }
 }
